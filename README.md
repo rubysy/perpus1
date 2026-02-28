@@ -15,7 +15,7 @@ Sebelum memulai, pastikan perangkat Anda sudah terinstal perangkat lunak berikut
 
 ---
 
-## 🛠️ Langkah-langkah Instalasi
+## 🛠️ Langkah-langkah Instalasi (Wajib lakuin semua)
 
 ### 1. Ekstrak / Clone Project
 Jika Anda mendapatkan file dalam bentuk zip, ekstrak terlebih dahulu ke folder web server Anda (contoh: `c:\laragon\www` atau `c:\xampp\htdocs`). Jika via git:
@@ -55,7 +55,7 @@ DB_USERNAME=root       # Sesuaikan dengan username db lokal Anda
 DB_PASSWORD=           # Kosongkan jika menggunakan XAMPP/Laragon bawaan
 ```
 
-### 5. Generate Application Key
+### 5. Generate Application Key 
 Jalankan perintah ini untuk membuat enkripsi unik (APP_KEY) untuk aplikasi:
 ```bash
 php artisan key:generate
